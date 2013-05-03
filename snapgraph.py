@@ -14,9 +14,6 @@ def add_user(name, cur_depth):
 
     print "\t"*cur_depth, name
 
-    if (('"%s"' % name) in nodes):
-        return
-
     nodes.append('"%s"' % name)
 
     if (cur_depth == max_depth):
