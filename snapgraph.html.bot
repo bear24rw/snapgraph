@@ -1,0 +1,15 @@
+jQuery(function(){
+      var graph = new Springy.Graph();
+        graph.loadJSON(graphJSON);
+
+          var springy = jQuery('#springydemo').springy({
+                  graph: graph
+                    });
+});
+</script>
+
+<canvas id="springydemo" width="2000" height="2000" />
+
+</body>
+</html>
+
